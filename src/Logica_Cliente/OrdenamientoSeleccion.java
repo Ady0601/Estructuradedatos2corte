@@ -23,7 +23,7 @@ public class OrdenamientoSeleccion {
         System.out.println("Escribir el numero de tiempos a ingresar:");
         int input = lec.nextInt();
         for (int i = 0; i < input; i++) {
-            System.out.println("Digite el tiempo del corredor número " + (i + 1) + ":");
+            System.out.println("Digite el tiempo del corredor numero " + (i + 1) + ":");
             double tiempoCorredor = lec.nextDouble();
             registrarTiempos(tiempoCorredor);
         }
